@@ -621,17 +621,21 @@ li a.active, li a:hover {
 
 @media (max-width: 738px){
 	.listas-container{
-		width: 150px;
-		margin-left: 330px;
-		margin-top: 250px;
+		width: 200px;
+		margin-left: 320px;
+		margin-top: 100px;
 	}
     .listas{
 	font-size: 14px;
 	margin: 40px 0px;
 	position: relative;
 	background: none;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-bottom: 50px;
+    }
+    .movete{
+    	margin-top: -280px;
+    	position: absolute;
     }
     .padrediv{
 	width: 70%;
@@ -641,7 +645,7 @@ li a.active, li a:hover {
 	justify-content: center;
 	position: absolute;
 	margin-left: 60px;
-	margin-top: 150px;
+	margin-top: 50px;
     }
     .alimento{
 	   width: 90px;
@@ -697,7 +701,7 @@ li a.active, li a:hover {
 }
 
 .sabiasque{
-	margin-top: 400px;
+	margin-top: 800px;
 }
 
 .sabiasque h2{
@@ -736,15 +740,21 @@ li a.active, li a:hover {
 }
 
 @media (max-width: 557px){
+	.listas-container{
+		width: 150px;
+	}
+	.padrediv{
+		margin-top: 50px;
+	}
 	.container-i{
 		margin-bottom: 350px;
 	}
 }
 
-@media (max-width: 503px){
+@media (max-width: 509px){
 	.listas-container{
 		width: 100px;
-		margin-left: 155px;
+		margin-left: 200px;
 		margin-top: 400px;
 		position: absolute;
 	}
@@ -757,13 +767,17 @@ li a.active, li a:hover {
 	margin-bottom: 100px;
     }
     .sabiasque{
-    	margin-top: 1750px;
+    	margin-top: 1650px;
     }
     .container-i{
     	margin-bottom: 400px;
     }
     .padrediv{
-    	margin-top: 320px;
+    	margin-top: 350px;
+    	margin-right: 1000px;
+    }
+    .movete{
+    	margin-top: 20px;
     }
 	
 }
@@ -771,7 +785,7 @@ li a.active, li a:hover {
 @media (max-width: 300px){
 	.listas-container{
 		width: 90px;
-		margin-left: 160px;
+		margin-left: 175px;
 		margin-top: 450px;
 		position: absolute;
 	}
@@ -784,8 +798,8 @@ li a.active, li a:hover {
 	margin-bottom: 0px;
     }
     .movete{
-    	margin-top: 500px;
-    	margin-bottom: 400px;
+    	margin-top: 300px;
+    	margin-bottom: 500px;
     }
 	.padrediv{
 	width: 70%;
@@ -795,7 +809,7 @@ li a.active, li a:hover {
 	justify-content: center;
 	position: absolute;
 	margin-left: 60px;
-	margin-top: 200px;
+	margin-top: 500px;
     }
 
     .alimento{
@@ -848,7 +862,7 @@ li a.active, li a:hover {
 }
 
 .sabiasque{
-	margin-top: 1900px;
+	margin-top: 2070px;
 }
 
 .container-i{
@@ -1014,20 +1028,26 @@ li a.active, li a:hover {
 	margin: 40px;
 }
 
-.contacto {
+.titulo-ubi .contacto {
 	text-align: center;
 	margin-top: 3rem;
 	padding: 2rem;
 	font-size: 30px;
+	margin-bottom: 100px;
 }
 
 .tulumba {
 	font-size: 30px;
 	margin-left: 40px;
+	margin-bottom: 40px;
 }
 
 .villa {
 	margin-left: 40px;
+}
+
+.mapa{
+	margin: 80px;
 }
 
 .formulario {
@@ -1057,6 +1077,10 @@ li a.active, li a:hover {
 	padding: 15px;
 }
 
+.f5{
+	padding-right: 50px;
+}
+
 .consultas {
 	margin-left: 40px;
 	margin-bottom: 25px;
@@ -1070,6 +1094,9 @@ li a.active, li a:hover {
 	.formulario input{
 		margin: 25px;
 		margin-left: 0px;
+	}
+	.f5{
+		padding: 15px 0px;
 	}
 }
 
