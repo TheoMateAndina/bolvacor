@@ -97,7 +97,7 @@ li a.active, li a:hover {
 		height: 100vh;
 		background: #212121;
 		top: 150px;
-		left: 100%;
+		right: 100%;
 		text-align: center;
 		transition: .5s;
 	}
@@ -118,11 +118,12 @@ li a.active, li a:hover {
 	}
 
 	#check:checked ~ ul{
-		left: 0;
+		right: -20px;
 	}
 
 
 }
+
 
 .titulo-parrafo{
 	width: 100%;
@@ -290,9 +291,10 @@ li a.active, li a:hover {
     .padrediv{
 	width: 70%;
 	height: 700px;
-	marglow: row wrap;
+	flex-flow: row wrap;
 	justify-content: flex-end;
 	position: absolute;
+	margin-left: 310px;
     }
     .alimento{
 	   width: 170px;
@@ -383,7 +385,7 @@ li a.active, li a:hover {
 	
 }
 
-@media (max-width: 975px){
+@media (max-width: 1080px){
 	.titulo-parrafo{
 	width: 100%;
     height: 250px;
@@ -396,26 +398,26 @@ li a.active, li a:hover {
 }
 
 .titulo-parrafo .titulo1{
-	font-size: 16px;
+	font-size: 20px;
 	text-align: center;
 }
 
 .titulo-parrafo .parrafo1{
 	text-align: center;
 	margin: 30px 40px;
-	font-size: 16px;
+	font-size: 20px;
 	margin-bottom: 0px;
 }
 	.listas-container{
-		width: 200px;
-		margin-left: 150px;
+		width: 500px;
+		margin-left: 350px;
 	}
     .listas{
 	font-size: 16px;
 	margin: 40px 0px;
 	position: relative;
 	background: none;
-	margin-top: 400px;
+	margin-top: 550px;
 }
 
 	.padrediv{
@@ -425,7 +427,7 @@ li a.active, li a:hover {
 	flex-flow: row nowrap;
 	justify-content: flex-end;
 	position: absolute;
-	margin-left: 150px;
+	margin-left: 100px;
 	margin-top: 260px;
     }
     .alimento{
@@ -480,7 +482,7 @@ li a.active, li a:hover {
 }
     .contenedor-imagenes{
 	width: 100%;
-	height: 600px;
+	height: 350px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -504,7 +506,7 @@ li a.active, li a:hover {
 }
 
 .sabiasque{
-	margin-top: 1100px;
+	margin-top: 630px;
 }
 
 .sabiasque h2{
@@ -517,7 +519,27 @@ li a.active, li a:hover {
 
 }
 
-@media (max-width: 595px){
+@media (max-width: 975px){
+	.listas-container{
+		width: 200px;
+		margin-left: 500px;
+	}
+	.sabiasque h2{
+		margin-top: 550px;
+	}
+	.listas-container .listas{
+		margin-top: 400px;
+	}
+}
+
+@media (max-width: 826px){
+     .container-i{
+     	margin-bottom: 100px;
+     }
+	}
+}
+
+@media (max-width: 756px){
 	.falalala{
 		margin-bottom: 300px;
 	}
@@ -525,8 +547,8 @@ li a.active, li a:hover {
 		margin-bottom: 200px;
 	}
 	.listas-container{
-		width: 200px;
-		margin-left: -50px;
+		width: 500px;
+		margin-left: 650px;
 	}
     .listas{
 	font-size: 16px;
@@ -542,7 +564,7 @@ li a.active, li a:hover {
 	flex-flow: row nowrap;
 	justify-content: flex-end;
 	position: absolute;
-	margin-left: 120px;
+	margin-left: 50px;
 	margin-top: 260px;
     }
     .alimento{
@@ -597,6 +619,246 @@ li a.active, li a:hover {
 }
 }
 
+@media (max-width: 738px){
+	.listas-container{
+		width: 150px;
+		margin-left: 330px;
+		margin-top: 250px;
+	}
+    .listas{
+	font-size: 14px;
+	margin: 40px 0px;
+	position: relative;
+	background: none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    }
+    .padrediv{
+	width: 70%;
+	height: 320px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 150px;
+    }
+    .alimento{
+	   width: 90px;
+	   height: 120px;
+	   margin-right: 100px;
+	   margin-left: -20px;
+	   border-style: solid;
+	   color: black;
+	   margin-bottom: 30px;
+    }
+    .pescados{
+	   width: 50px;
+	   height:50px;
+	   margin: 20px 20px 20px 20px;
+	   margin-bottom: 0px;
+    }
+    .pollos{
+	   width: 50px;
+	   height: 50px;
+	   margin: 20px 20px 20px 20px;
+	   margin-bottom: 0px;
+    }
+    .carnes{
+	   width: 50px;
+	   height: 50px;
+	   margin: 20px 20px 20px 20px;
+	   margin-bottom: 0px;
+    }
+    .verduras{
+	   width: 50px;
+	   height: 50px;
+	   margin: 20px 20px 20px 20px;
+	   margin-bottom: 0px;
+    }
+    .textopescado{
+	font-size: 8px;
+	text-align: center;
+}
+
+.textopollo{
+	font-size: 8px;
+	text-align: center;
+}
+
+.textocarne{
+	font-size: 8px;
+	text-align: center;
+}
+
+.textoverdura{
+	font-size: 8px;
+	text-align: center;
+}
+
+.sabiasque{
+	margin-top: 400px;
+}
+
+.sabiasque h2{
+	font-size: 14px;
+}
+
+.sabiasque .fafada{
+	font-size: 14px;
+}
+
+.container-i{
+	margin-bottom: 100px;
+}
+
+.titulo-parrafo{
+	text-align: left;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+.titulo-parrafo .titulo1{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.titulo-parrafo .parrafo1{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+}
+
+@media (max-width: 557px){
+	.container-i{
+		margin-bottom: 350px;
+	}
+}
+
+@media (max-width: 503px){
+	.listas-container{
+		width: 100px;
+		margin-left: 155px;
+		margin-top: 400px;
+		position: absolute;
+	}
+    .listas{
+	font-size: 12px;
+	margin: 40px 0px;
+	position: none;
+	background: none;
+	margin-top: 900px;
+	margin-bottom: 100px;
+    }
+    .sabiasque{
+    	margin-top: 1750px;
+    }
+    .container-i{
+    	margin-bottom: 400px;
+    }
+    .padrediv{
+    	margin-top: 320px;
+    }
+	
+}
+
+@media (max-width: 300px){
+	.listas-container{
+		width: 90px;
+		margin-left: 160px;
+		margin-top: 450px;
+		position: absolute;
+	}
+    .listas{
+	font-size: 12px;
+	margin: 40px 0px;
+	position: none;
+	background: none;
+	margin-top: 300px;
+	margin-bottom: 0px;
+    }
+    .movete{
+    	margin-top: 500px;
+    	margin-bottom: 400px;
+    }
+	.padrediv{
+	width: 70%;
+	height: 320px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 200px;
+    }
+
+    .alimento{
+	   width: 90px;
+	   height: 150px;
+	   margin-right: 40px;
+	   margin-left: -20px;
+	   border-style: solid;
+	   color: black;
+	   margin-top: 20px;
+    }
+    .pescados{
+	   width: 50px;
+	   height:50px;
+	   margin: 20px 20px 20px 20px;
+    }
+    .pollos{
+	   width: 50px;
+	   height: 50px;
+	   margin: 20px 20px 20px 20px;
+    }
+    .carnes{
+	   width: 50px;
+	   height: 50px;
+	   margin: 20px 20px 20px 20px;
+    }
+    .verduras{
+	   width: 50px;
+	   height: 50px;
+	   margin: 20px 20px 20px 20px;
+    }
+    .textopescado{
+	font-size: 8px;
+	text-align: center;
+}
+
+.textopollo{
+	font-size: 8px;
+	text-align: center;
+}
+
+.textocarne{
+	font-size: 8px;
+	text-align: center;
+}
+
+.textoverdura{
+	font-size: 8px;
+	text-align: center;
+}
+
+.sabiasque{
+	margin-top: 1900px;
+}
+
+.container-i{
+	margin-bottom: 400px;
+}
+.alimento .verduras{
+}
+
+}
+
 .container-porque{
 	display: flex;
 	flex-flow: row wrap;
@@ -619,6 +881,24 @@ li a.active, li a:hover {
 	line-height: 2.0;
 }
 
+@media (max-width: 300px){
+	.container-porque .porqueenvasaralvacio{
+		font-size: 20px;
+	}
+	.container-porque .porque{
+		font-size: 20px;
+	}
+}
+
+.envase-bolsa{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
 .envases {
 	text-align: center;
 	margin: 3rem;
@@ -626,26 +906,112 @@ li a.active, li a:hover {
 	font-size: 30px;
 }
 
-.bolsas {
-	margin: 40px;
+.container-bolsa{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
 }
 
 .bolsasgrofadas {
 	font-size: 30px;
+	text-align: left;
+	margin: 40px;
+}
+
+.bolsasa{
+	margin: 40px;
+	text-align: left;
 }
 
 .grofada {
 	width: 800px;
 	height: 600px;
+	margin: 40px;
 }
 
 .bolsaslisas {
 	font-size: 30px;
+	text-align: left;
+	margin: 40px;
+}
+
+.cajadebolsa{
+	width: 100%;
+	text-align: left;
+}
+
+.container-bolsa-lisa{
+	margin: 40px;
+	text-align: left;
 }
 
 .lisas {
 	width: 800px;
 	height: 600px;
+	margin: 40px;
+	margin-bottom: 150px;
+}
+
+@media (max-width: 835px){
+	.lisas{
+		width: 230px;
+		height: 230px;
+	}
+	.grofada{
+		width: 230px;
+		height: 230px;
+	}
+}
+
+@media (max-width: 300px){
+	.envase-bolsa h1{
+		font-size: 20px;
+	}
+	.container-bolsa .bolsasgrofadas{
+		font-size: 20px;
+	}
+	.container-bolsa p{
+		font-size: 20px;
+	}
+	.cajadebolsa h2{
+		font-size: 20px;
+	}
+	.container-bolsa p{
+		font-size: 20px;
+	}
+	.lisas{
+		width: 150px;
+		height: 150px;
+	}
+	.grofada{
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.titulo-ubi{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.parrafotulumbita{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+.mapa{
+	margin: 40px;
 }
 
 .contacto {
@@ -696,6 +1062,69 @@ li a.active, li a:hover {
 	margin-bottom: 25px;
 }
 
+@media (max-width: 1000px){
+	.formulario{
+		display: grid;
+		grid-template-columns: auto;
+	}
+	.formulario input{
+		margin: 25px;
+		margin-left: 0px;
+	}
+}
+
+@media (max-width: 480px){
+	.mapa{
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 300px){
+	.titulo-ubi .contacto{
+		font-size: 20px;
+	}
+	.villatulumbita .tulumba{
+		font-size: 20px;
+	}
+	.villatulumbita .villa{
+		font-size: 20px;
+	}
+	.villatulumbita .consultas{
+		font-size: 20px;
+	}
+	.mapa{
+		width: 150px;
+		height: 150px;
+	}
+	.formulario{
+		display: grid;
+		grid-template-columns: auto;
+	}
+	.formulario input{
+		margin: 25px;
+		margin-left: 0px;
+	}
+}
+
+.nosonoso{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.testoo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
 .sobre {
 	text-align: center;
 	margin: 3rem;
@@ -705,12 +1134,25 @@ li a.active, li a:hover {
 
 .nosotros {
 	margin-left: 40px;
+	margin-bottom: 50px;
 }
 
 .grupo {
 	font-size: 30px;
 	margin-left: 40px;
 	margin-bottom: 100px;
+}
+
+@media (max-width: 300px){
+	.nosonoso .sobre{
+		font-size: 20px;
+	}
+	.testoo .nosotros{
+		font-size: 20px;
+	}
+	.testoo .grupo{
+		font-size: 20px;
+	}
 }
 
 .pie-pagina{
@@ -827,14 +1269,18 @@ li a.active, li a:hover {
 		padding: 0px;
     }
 
+    .pie-pagina .grupo-1 .rede{
+    	margin-left: 20px;
+    }
+
     .pie-pagina .grupo-1 .consulta{
     	margin-bottom: 5px;
-    	margin-left: 50px;
+    	margin-left: 20px;
     }
 
     .pie-pagina .grupo-1 .encuentra{
     	margin-bottom: 5px;
-    	margin-left: 95px;
+    	margin-left: 70px;
     }
 
     .pie-pagina .grupo-1 .red-social .face:hover{
@@ -850,5 +1296,63 @@ li a.active, li a:hover {
     .pie-pagina .grupo-1 .red-social .twitter:hover{
     	background: none;
     	color: white;
+    }
+}
+
+@media (max-width: 442px){
+	.pie-pagina .grupo-2{
+	background-color: #212125;
+	color: white;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.pie-pagina .grupo-2 small{
+	font-size: 12px;
+}
+    .pie-pagina .grupo-1{
+		width: 100%;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 30px;
+		padding: 35px 0px;
+	}
+
+    .pie-pagina .grupo-1 .box{
+    	text-align: center;
+    }
+
+	.pie-pagina .grupo-1 .box a{
+		margin-right: 10px;
+		padding: 0px;
+    }
+
+    .pie-pagina .grupo-1 .rede{
+    	margin-left: 28px;
+    }
+
+    .pie-pagina .grupo-1 .red-social{
+    	margin-left: 10px;
+    }
+
+    .pie-pagina .grupo-1 .consulta{
+    	margin-bottom: 5px;
+    	margin-left: 20px;
+    }
+
+    .pie-pagina .grupo-1 .encuentra{
+    	margin-bottom: 5px;
+    	margin-left: 65px;
+    }
+}
+
+@media (max-width: 756px){
+	.pie-pagina .grupo-1 .rede{
+    	margin-left: -10px;
+    }
+    .pie-pagina .grupo-1 .encuentra{
+    	margin-left: 25px;
+    }
+    .pie-pagina .grupo-1 .consulta{
+    	margin-left: -15px;
     }
 }
