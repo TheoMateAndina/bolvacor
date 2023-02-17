@@ -1,0 +1,1237 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+nav {
+	background-color: #212121;
+	height: 150px;
+	width: 100%;
+}
+
+.enlace {
+	position: absolute;
+	padding: 10px 50px;
+}
+
+.logo {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 150px;
+	margin: 0px 5px;
+}
+
+nav ul li a {
+	font-size: 16px;
+	padding: 7px 13px;
+	color: white;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+li a.active, li a:hover {
+	background-color: white;
+	color: black;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 50px;
+	color: white;
+	float: right;
+	line-height: 150px;
+	margin-right: 20px;
+	cursor: pointer;
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
+.cam{
+	line-height: 150px;
+}
+
+.com{
+	line-height: 150px;
+}
+
+.lala{
+	margin-top: 50px;
+}
+@media (max-width: 1145px){
+    .enlace{
+    	padding-left: 20px;
+    }
+
+    nav ul li a{
+    	font-size: 12px;
+    }
+}
+@media (max-width: 975px){
+
+	.checkbtn{
+	display:block;
+	}
+	ul{
+
+	position:absolute;
+	width:100%;
+	height:100vh;
+	background:#212121;
+	top:150px;
+	right:100%;
+	text-align:center;
+	transition:.5s;
+	}
+	nav ul li{
+	display: block;
+	margin: 50px 0px;
+	line-height:30px;
+	}
+	a{
+	font-size:20px;
+	}
+	li a:hover, li.active{
+	background:none;
+	color:white;
+	}
+	#check:checked~ul{
+	right:-20px;
+	}
+	}
+
+.titulo-parrafo{
+	width:100%;
+	height:250px;
+	margin-top:40px;
+	margin-bottom:120px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.titulo-parrafo .titulo1{
+	font-size:30px;
+	text-align:center;
+}
+.titulo-parrafo .parrafo1{
+	text-align:center;
+	margin:30px 40px;
+}
+.padrediv{
+	width:70%;
+	height:700px;
+	margin-left:340px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-end;
+	position:absolute;
+}
+.alimento{
+	width:250px;
+	height:250px;
+	margin-left:110px;
+	border-style:solid;
+	color:black;
+}
+.pescados{
+	width:150px;
+	height:150px;
+	margin: 50px 0px 50px 50px;
+	margin-bottom:10px;
+}
+.pollos{
+	width:150px;
+	height:150px;
+	margin: 50px 0px 50px 50px;
+	margin-bottom:10px;
+}
+.carnes{
+	width:150px;
+	height:150px;
+	margin: 50px 0px 50px 50px;
+	margin-bottom:10px;
+}
+.verduras{
+	width:150px;
+	height:150px;
+	margin: 50px 0px 50px 50px;
+	margin-bottom:10px;
+}
+.textopescado{
+	font-size:9px;
+	text-align:center;
+}
+.textopollo{
+	font-size:9px;
+	text-align:center;
+}
+.textocarne{
+	font-size:9px;
+	text-align:center;
+}
+.textoverdura{
+	font-size:9px;
+	text-align:center;
+}
+.listas-container{
+	height:700px;
+	widht:45%;
+	margin-left:40px;
+	margin-bottom:80px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+}
+.listas{
+	position:absolute;
+}
+.sabiasque{
+	margin-left:40px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+}
+.contenedor-imagenes{
+	width:100%;
+	height:500px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+}
+.caja-i{
+	width:250px;
+	height:250px;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	border-style:solid;
+	color:black;
+	margin:50px;
+}
+.ropa{
+	width:150px;
+	height:150px;
+	margin-bottom:20px;
+}
+.dinero{
+	width:150px;
+	height:150px;
+	margin-bottom:20px;
+}
+.liquido{
+	width:150px;
+	height:150px;
+	margin-bottom:20px;
+}
+.textoropa{
+	font-size:9px;
+	text-align:center;
+}
+.textodinero{
+	font-size:9px;
+	text-align:center;
+}
+.textoliquido{
+	font-size:9px;
+	text-align:center;
+}
+@media (max-width:1145px){
+	.padrediv{
+	width:70%;
+	height:700px;
+	flex-flow:row wrap;
+	justify-content:flex-end;
+	position:absolute;
+	margin-left:310px;
+	}
+	.alimento{
+	width:170px;
+	height:170px;
+	margin-left:110px;
+	border-style:solid;
+	color:black;
+	}
+	.pescados{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.pollos{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.carnes{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.verduras{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.contenedor-imagenes{
+	width:100%;
+	height:300px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: center;
+	}
+	.caja-i{
+	width:170px;
+	height:170px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	border-style:solid;
+	color:black;
+	margin:50px;
+	margin-bottom:0px;
+	}
+	.ropa{
+	width:70px;
+	height:70px;
+	margin-bottom:20px;
+	}
+	.dinero{
+	width:70px;
+	height:70px;
+	margin-bottom:20px;
+	}
+	.liquido{
+	width:70px;
+	height:70px;
+	margin-bottom:20px;
+	}
+	.textoropa{
+	font-size:9px;
+	text-align:center;
+	}
+	.textodinero{
+	font-size:9px;
+	text-align:center;
+	}
+	.textoliquido{
+	font-size:9px;
+	text-align:center;
+	}
+}
+@media (max-width: 1080px){
+	.titulo-parrafo{
+	width:100%;
+	height:250px;
+	margin-top:225px;
+	margin-bottom:10px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:center,
+	}
+	.titulo-parrafo .titulo1{
+	font-size:20px;
+	text-align:center;
+	}
+	.titulo-parrafo .parrafo1{
+	text-align:center;
+	margin:30px 40px;
+	font-size:20px;
+	margin-bottom:0px;
+	}
+	.listas-container{
+	width:500px;
+	margin-left:350px;
+	}
+	.listas{
+	font-size:16px;
+	margin:40px 0px;
+	position:relative;
+	background:none;
+	margin-top:550px;
+	}
+	.padrediv{
+	width:70%;
+	height:700px;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content: flex-end;
+	position:absolute;
+	margin-left:100px;
+	margin-top:260px;
+	}
+	.alimento{
+	width:130px;
+	height:150px;
+	margin-left:10px;
+	border-style:solid;
+	color:black;
+	}
+	.pescados{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.pollos{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.carnes{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.verduras{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.textopescado{
+	font-size:9px;
+	text-align:center;
+	}
+	.textopollo{
+	font-size:9px;
+	text-align:center;
+	}
+	.textocarne{
+	font-size:9px;
+	text-align:center;
+	}
+	.textoverdura{
+	font-size:9px;
+	text-align:center;
+	}
+	.contendor-imagenes{
+	width:100%;
+	height:350px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	}
+	.caja-1{
+	width:170px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	border-style:solid;
+	color:black;
+	margin:50px;
+	margin-bottom:0px;
+	}
+	.falalala{
+	margin-bottom:100px;
+	}
+	.sabiasque{
+	margin-top:630px;
+	}
+	.sabiasque h2{
+	font-size:20px,
+	}
+	.sabiasque .fafada{
+	font-size:20px;
+	}
+}
+@media (max-width: 975px){
+	.listas-container{
+	width:200px;
+	margin-left:500px;
+	}
+	.sabiasque h2{
+	margin-top: 550px;
+	}
+	.listas-container .listas{
+	margin-top:400px;
+	}
+}
+@media (max-width: 826px){
+	.contenedor-imagenes{
+	margin-bottom:200px;
+	}
+}
+@media (max-width: 756px){
+	.falalala{
+	margin-bottom:300px;
+	}
+	.container-i{
+	margin-bottom:200px;
+	}
+	.listas-container{
+	width:200px;
+	margin-left:450px;
+	}
+	.listas{
+	font-size:16px;
+	margin:40px 0px;
+	position:relative;
+	background:none;
+	margin-top:400px;
+	}
+	.padrediv{
+	width:70%;
+	height:700px;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:flex-end;
+	position:absolute;
+	margin-left:50px;
+	margin-top:260px;
+	}
+	.alimento{
+	width:90px;
+	height:120px;
+	margin-left:10px;
+	border-style:solid;
+	color:black;
+	}
+	.pescados{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.pollos{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.carnes{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.verduras{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.textopescado{
+	font-size:8px;
+	text-align:center;
+	}
+	.textopollo{
+	font-size:8px;
+	text-align:center;
+	}
+	.textocarne{
+	font-size:8px;
+	text-align:center;
+	}
+	.textoverdura{
+	font-size:8px;
+	text-align:center;
+	}
+}
+@media (max-width: 738px){
+	.listas-container{
+	width:200px;
+	margin-left:320px;
+	margin-top:100px;
+	}
+	.listas{
+	font-size:14px;
+	margin:40px 0px;
+	position:relative;
+	background:none;
+	margin-top:0px;
+	margin-bottom:50px;
+	}
+	.movete{
+	margin-top:-280px;
+	position:absolute;
+	}
+	.padrediv{
+	width:70%;
+	height:320px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	position:absolute;
+	margin-left:60px;
+	margin-top:50px;
+	}
+	.alimento{
+	width:90px;
+	height:120px;
+	margin-right:100px;
+	margin-left:-20px;
+	border-style:solid;
+	color:black;
+	margin-bottom:30px;
+	}
+	.pescados{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.pollos{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.carnes{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.verduras{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.textopescado{
+	font-size:8px;
+	text-align:center;
+	}
+	.textopollo{
+	font-size:8px;
+	text-align:center;
+	}
+	.textocarne{
+	font-size:8px;
+	text-align:center;
+	}
+	.textoverdura{
+	font-size:8px;
+	text-align:center;
+	}
+	.sabiasque{
+	margin-top:800px;
+	}
+	.sabiasque h2{
+	font-size: 14px;
+	}
+	.sabiasque .fafada{
+	font-size:14px;
+	}
+	.container-i{
+	margin-bottom:100px;
+	}
+	.titulo-parrafo{
+	text-align:left;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start,
+	}
+	.titulo-parrafo .titulo1{
+	font-size:20px;
+	text-align:left;
+	margin-left:20px;
+	}
+	.titulo-parrafo .parrafo1{
+	font-size:20px;
+	text-align:left;
+	margin-left:20px;
+	}
+}
+@media (max-width: 557px){
+	.listas-container{
+	width:150px;
+	}
+	.padrediv{
+	margin-top:50px;
+	}
+	.container-i{
+	margin-bottom:450px;
+	}
+	.sabiasque{
+	margin-top:950px;
+	}
+}
+@media (max-width: 509px){
+	.listas-container{
+	width:100px;
+	margin-left:200px;
+	margin-top:400px;
+	position:absolute;
+	}
+	.listas{
+	font-size:12px;
+	margin:40px 0px;
+	position:none;
+	background:none;
+	margin-top:900px;
+	margin-bottom:100px;
+	}
+	.sabiasque{
+	margin-top:1650px;
+	}
+	.container-i{
+	margin-bottom:400px;
+	}
+	.padrediv{
+	margin-top:350px;
+	margin-right:1000px;
+	}
+	.movete{
+	margin-top:20px;
+	}
+}
+@media (max-width: 300px){
+	.listas-container{
+	width:90px;
+	margin-left:175px;
+	margin-top:450px;
+	position:absolute;
+	}
+	.listas{
+	font-size:12px;
+	margin:40px 0px;
+	position:none;
+	background:none;
+	margin-top:300px;
+	margin-bottom:0px;
+	}
+	.movete{
+	margin-top:300px;
+	margin-bottom:500px;
+	}
+	.padrediv{
+	width:70%;
+	height:320px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	position:absolute;
+	margin-left:60px;
+	margin-top:500px;
+	}
+	.alimento{
+	width:90px;
+	height:150px;
+	margin-right:40px;
+	margin-left:-20px;
+	border-style:solid;
+	color:black;
+	margin-top:20px;
+	}
+	.pescados{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.pollos{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.carnes{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.verduras{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.textopescado{
+    font-size:8px;
+    text-align:center;
+	}
+	.textopollo{
+    font-size:8px;
+    text-align:center;
+	}
+	.textocarne{
+    font-size:8px;
+    text-align:center;
+	}
+	.textoverdura{
+    font-size:8px;
+    text-align:center;
+	}
+	.sabiasque{
+	margin-top:2070px;
+	}
+	.container-i{
+	margin-bottom:400px;
+	}
+}
+.container-porque{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+.porqueenvasaralvacio{
+	text-align:center;
+	margin:3rem;
+	padding:2rem;
+	font-size:30px;
+}
+.porque{
+	text-align:center;
+	border-style:solid;
+	margin:40px;
+	line-height:2.0;
+}
+@media (max-width: 300px){
+	.container-porque .porqueenvasaralvacio{
+	font-size:20px;
+	}
+	.cotainer-porque .porque{
+	font-size:20px;
+	}
+}
+.envase-bolsa{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+.envases{
+	text-align:center;
+	margin:3rem;
+	padding:2rem;
+	font-size:30px;
+}
+.container-bolsa{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-content:flex-start;
+	align-itmes:flex-start;
+}
+.bolsasgrofadas{
+	font-size:30px;
+	text-align:left;
+    margin:40px;
+}
+.bolsasa{
+	margin:40px;
+	text-align:left,
+}
+.grofada{
+	width:800px;
+	height:600px;
+	margin:40px;
+}
+.bolsaslisas{
+	font-size:30px;
+	text-align:left;
+	margin:40px;
+}
+.cajadebolsa{
+	width:100%;
+	text-align:left;
+}
+.container-bolsa-lisa{
+	margin:40px;
+	text-align:left;
+}
+.lisas{
+	width:800px;
+	height:600px;
+	margin:40px;
+	margin-bottom:150px;
+}
+@media (max-width: 835px){
+	.lisas{
+	width:230px;
+	height:230px;
+	}
+	.grofada{
+	width:230px;
+	height:230px;
+	}
+}
+@media (max-width: 300px){
+	.envase-bolsa h1{
+	font-size:20px;
+	}
+	.container-bolsa .bolsasgrofadas{
+	font-size:20px;
+	}
+	.container-bolsa p{
+	font-size:20px;
+	}
+	.lisas{
+	width:150px;
+	height:150px;
+	}
+	.grofada{
+	width:150px;
+	height:150px;
+	}
+}
+.titulo-ubi{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+.parrafotulumbita{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+}
+.mapa{
+	margin:40px;
+}
+.titulo-ubi .contacto{
+	text-align:center;
+	margin-top:3rem;
+	padding:2rem;
+	font-size:30px;
+	margin-bottom:100px;
+}
+.tulumba{
+	font-size:30px;
+	margin-left:40px;
+	margin-bottom:40px;
+}
+.villa{
+	margin-left:40px;
+}
+.mapa{
+	margin:80px;
+}
+.formulario{
+	background-color:white;
+	display:flex;
+	margin-left:40px;
+	margin-bottom:100px;
+}
+.f1{
+	margin-right:20px;
+	padding:15px;
+}
+.f2{
+	margin-right:20px;
+	padding:15px;
+}
+.f3{
+	margin-right:20px;
+	padding:15px;
+}
+.f4{
+	margin-right:20px;
+	padding:15px;
+}
+.f5{
+	padding-right:50px;
+}
+.consultas{
+	margin-left:40px;
+	margin-bottom:25px;
+}
+@media (max-width: 1000px){
+	.formulario{
+	display:grid;
+	grid-template-columns:auto;
+	}
+	.formulario input{
+	margin:25px;
+	margin-left:0px;
+	}
+	.f5{
+	padding:15px 0px;
+	}
+}
+@media (max-width: 545px){
+	.mapa{
+	width:200px;
+	height:200px;
+	}
+}
+@media (max-width: 300px){
+	.titulo-ubi .contacto{
+	font-size:20px;
+	}
+	.villatulumbita .tulumba{
+	font-size:20px;
+	}
+	.villatulumbita .villa{
+	font-size:20px;
+	}
+	.villatulumbita .consultas{
+	font-size:20px;
+	}
+	.mapa{
+	width:150px;
+	height:150px;
+	}
+	.formulario{
+	display:grid;
+	grid-template-columns:auto;
+	}
+	.formulario input{
+	margin:25px;
+	margin-left:0px;
+	}
+}
+.nosonoso{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+}
+.testoo{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-content:flex-start;
+	align-items:flex-start;
+}
+.sobre{
+	text-align:center;
+	margin:3rem;
+	padding:2rem;
+	font-size:30px;
+}
+.nosotros{
+	margin-left:40px;
+	margin-bottom:50px;
+}
+.grupo{
+	font-size:30px;
+	margin-left:40px;
+	margin-bottom:100px;
+}
+@media (max-width: 300px){
+	.nosonoso .sobre{
+	font-size:20px;
+	}
+	.testoo .nosotros{
+	font-size:20px;
+	}
+	.testoo .grupo{
+	font-size:20px;
+	}
+}
+.pie-pagina{
+	width:100%;
+	background-color:#212121;
+}
+.pie-pagina .grupo-1{
+	width:100%;
+	max-width:1200px;
+	margin: auto;
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:50px;
+	padding:45px 0px;
+}
+.pie-pagina .grupo-1 .box h2{
+	color:white;
+	margin-bottom:25px;
+	font-size:20px;
+	text-transform:uppercase;
+}
+.pie-pagina .grupo-1 .box p{
+	color:white;
+	margin-bottom:10px;
+	font-size:16px;
+}
+.pie-pagina .grupo-1 .red-social a{
+	display:inline-block;
+	font-size:30px;
+	width:45px;
+	height:45px;
+	line-height:45px;
+	color:white;
+	margin:0px 30px;
+	margin-right:10px;
+	text-align:center;
+	transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social .face:hover{
+	color:royalblue;
+}
+.pie-pagina .grupo-1 .red-social .ig:hover{
+	color:orange;
+}
+.pie-pagina .grupo-1 .red-social .twitter:hover{
+	color:aqua;
+}
+.rede{
+	text-align:left;
+    margin-left:50px;
+}
+.consulta{
+	text-align:center;
+}
+.encuentra{
+	text-align:center;
+	margin-right:50px
+}
+.pie-pagina .grupo-2{
+	background-color:#212125;
+	color:white;
+	text-align:center;
+	padding:15px 0px;
+	}
+.pie-pagina .grupo-2 small{
+	font-size:15px;
+}
+@media (max-width: 1145px){
+	.pie-pagina .grupo-1 .box p{
+	font-size:12px;
+	}
+	.pie-pagina .grupo-1 .box h2{
+	font-size:16px;
+	margin:0 auto;
+	}
+	.pie-pagina .grupo-1 .red-social a{
+	font-size:20px;
+	margin:0 auto;
+	padding-left:50px;
+	}
+	.pie-pagina .grupo-2{
+	background-color:#212125;
+	color:white;
+	text-align:center;
+	padding:15px 0px;
+	}
+}
+@media (max-width: 975px){
+	.pie-pagina .grupo-1{
+	width:100%;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap:30px;
+	padding:35px 0px;
+	}
+	.pie-pagina .grupo-1 .box{
+	text-align:center;
+	}
+	.pie-pagina .grupo-1 .box a{
+	margin-right:10px;
+	padding:0px;
+	}
+	.pie-pagina .grupo-1 .rede{
+	margin-left:20px;
+	}
+	.pie-pagina .grupo-1 .consulta{
+	margin-bottom:5px;
+	margin-left:20px;
+	}
+	.pie-pagina .grupo-1 .encuentra{
+	margin-bottom:5px;
+	margin-left:70px;
+	}
+	.pie-pagina .grupo-1 .red-social .face:hover{
+	background:none;
+	color:white;
+	}
+	.pie-pagina .grupo-1 .red-social .ig:hover{
+	background:none;
+	color:white;
+	}
+	.pie-pagina .grupo-1 .red-social .twitter:hover{
+	background:none;
+	color:white;
+	}
+	.pie-pagina .grupo-2{
+	background-color:#212125;
+	color:white;
+	text-align:center;
+	padding:15px 0px;
+	}
+}
+@media (max-width: 756px){
+	.pie-pagina .grupo-1 .rede{
+	margin-left:-10px;
+	}
+	.pie-pagina .grupo-1 .encuentra{
+	margin-left:25px;
+	}
+	.pie-pagina .grupo-1 .consulta{
+	margin-left:-15px;
+	}
+	.pie-pagina .grupo-2{
+	background-color:#212125;
+	color:white;
+	text-align:center;
+	padding:15px 0px;
+	}
+}
+@media (max-width:442px){
+	.pie-pagina .grupo-2{
+	background-color:#212125;
+	color:white;
+	text-align:center;
+	padding:15px 0px;
+	}
+	.pie-pagina .grupo-2 small{
+	font-size:12px;
+	}
+	.pie-pagina .grupo-1{
+	width:100%;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap:30px;
+	padding:35px 0px;
+	}
+	.pie-pagina .grupo-1 .box{
+	text-align:center;
+	}
+	.pie-pagina .grupo-1 .box a{
+	margin-right:10px;
+	padding:0px;
+	}
+	.pie-pagina .grupo-1 .rede{
+    margin-left:28px;
+	}
+	.pie-pagina .grupo-1 .red-social{
+	margin-left:10px;
+	}
+	.pie-pagina .grupo-1 .consulta{
+	margin-bottom:5px;
+	margin-left:20px;
+	}
+	.pie-pagina .grupo-1 .encuentra{
+	margin-bottom:5px;
+	margin-left:65px;
+	}
+}
