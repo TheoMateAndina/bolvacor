@@ -35,7 +35,8 @@ nav ul li a {
   padding: 7px 13px;
   color: white;
   border-radius: 3px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-decoration: none; }
 
 li a.active, li a:hover {
   background-color: white;
@@ -545,7 +546,7 @@ li a.active, li a:hover {
     font-size: 8px;
     text-align: center; }
   .sabiasque {
-    margin-top: 800px; }
+    margin-top: 1000px; }
   .sabiasque h2 {
     font-size: 14px; }
   .sabiasque .fafada {
@@ -553,6 +554,7 @@ li a.active, li a:hover {
   .container-i {
     margin-bottom: 100px; }
   .titulo-parrafo {
+    margin-bottom: 150px;
     text-align: left;
     display: flex;
     flex-flow: row wrap;
@@ -576,13 +578,13 @@ li a.active, li a:hover {
   .container-i {
     margin-bottom: 450px; }
   .sabiasque {
-    margin-top: 950px; } }
+    margin-top: 1250px; } }
 
 @media (max-width: 509px) {
   .listas-container {
     width: 100px;
-    margin-left: 200px;
-    margin-top: 400px;
+    margin-left: 140px;
+    margin-top: 0px;
     position: absolute; }
   .listas {
     font-size: 12px;
@@ -592,19 +594,19 @@ li a.active, li a:hover {
     margin-top: 900px;
     margin-bottom: 100px; }
   .sabiasque {
-    margin-top: 1650px; }
+    margin-top: 2000px; }
   .container-i {
     margin-bottom: 400px; }
   .padrediv {
-    margin-top: 350px;
+    margin-top: 200px;
     margin-right: 1000px; }
   .movete {
-    margin-top: 20px; } }
+    margin-top: 300px; } }
 
 @media (max-width: 300px) {
   .listas-container {
     width: 90px;
-    margin-left: 175px;
+    margin-left: 140px;
     margin-top: 450px;
     position: absolute; }
   .listas {
@@ -663,21 +665,21 @@ li a.active, li a:hover {
     font-size: 8px;
     text-align: center; }
   .sabiasque {
-    margin-top: 2070px; }
+    margin-top: 2650px; }
   .container-i {
     margin-bottom: 400px; } }
 
 .container-porque {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 70px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .porqueenvasaralvacio {
   text-align: center;
-  margin: 3rem;
-  padding: 2rem;
   font-size: 30px; }
 
 .porque {
@@ -693,17 +695,16 @@ li a.active, li a:hover {
     font-size: 20px; } }
 
 .envase-bolsa {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 70px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
+  justify-content: center; }
 
 .envases {
   text-align: center;
-  margin: 3rem;
-  padding: 2rem;
   font-size: 30px; }
 
 .container-bolsa {
@@ -749,6 +750,14 @@ li a.active, li a:hover {
 
 @media (max-width: 835px) {
   .lisas {
+    width: 500px;
+    height: 500px; }
+  .grofada {
+    width: 500px;
+    height: 500px; } }
+
+@media (max-width: 585px) {
+  .lisas {
     width: 230px;
     height: 230px; }
   .grofada {
@@ -770,30 +779,17 @@ li a.active, li a:hover {
     height: 150px; } }
 
 .titulo-ubi {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 70px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
-
-.parrafotulumbita {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start; }
-
-.mapa {
-  margin: 40px; }
+  justify-content: center; }
 
 .titulo-ubi .contacto {
   text-align: center;
-  margin-top: 3rem;
-  padding: 2rem;
-  font-size: 30px;
-  margin-bottom: 100px; }
+  font-size: 30px; }
 
 .tulumba {
   font-size: 30px;
@@ -804,51 +800,68 @@ li a.active, li a:hover {
   margin-left: 40px; }
 
 .mapa {
-  margin: 80px; }
-
-.formulario {
-  background-color: white;
-  display: flex;
+  margin: 80px;
   margin-left: 40px;
-  margin-bottom: 100px; }
-
-.f1 {
-  margin-right: 20px;
-  padding: 15px; }
-
-.f2 {
-  margin-right: 20px;
-  padding: 15px; }
-
-.f3 {
-  margin-right: 20px;
-  padding: 15px; }
-
-.f4 {
-  margin-right: 20px;
-  padding: 15px; }
-
-.f5 {
-  padding-right: 50px; }
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
 
 .consultas {
   margin-left: 40px;
   margin-bottom: 25px; }
 
-@media (max-width: 1000px) {
-  .formulario {
-    display: grid;
-    grid-template-columns: auto; }
-  .formulario input {
-    margin: 25px;
-    margin-left: 0px; }
-  .f5 {
-    padding: 15px 0px; } }
+.cajondeformulario {
+  width: 50%;
+  margin: 100px 40px;
+  background-color: #212121;
+  border-radius: 50px; }
+
+.mb-3 {
+  width: 550px;
+  padding-left: 40px;
+  padding-top: 40px;
+  color: white; }
+
+.form-control {
+  margin: auto;
+  height: 50px; }
+
+.col-12 {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.btn-primary {
+  width: 110px;
+  height: 65px; }
+
+@media (max-width: 1130px) {
+  .cajondeformulario {
+    width: 440px; }
+  .mb-3 {
+    width: 400px; } }
+
+@media (max-width: 930px) {
+  .mapa {
+    width: 400px;
+    height: 400px; } }
 
 @media (max-width: 545px) {
   .mapa {
     width: 200px;
-    height: 200px; } }
+    height: 200px; }
+  .cajondeformulario {
+    width: 350px; }
+  .mb-3 {
+    width: 310px; } }
+
+@media (max-width: 440px) {
+  .cajondeformulario {
+    width: 240px; }
+  .mb-3 {
+    width: 200px; } }
 
 @media (max-width: 300px) {
   .titulo-ubi .contacto {
@@ -862,20 +875,25 @@ li a.active, li a:hover {
   .mapa {
     width: 150px;
     height: 150px; }
-  .formulario {
-    display: grid;
-    grid-template-columns: auto; }
-  .formulario input {
-    margin: 25px;
-    margin-left: 0px; } }
+  .cajondeformulario {
+    width: 205px; }
+  .mb-3 {
+    width: 165px; }
+  .form-control {
+    height: 65px; } }
 
 .nosonoso {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 70px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
+  justify-content: center; }
+
+.sobreee {
+  font-size: 30px;
+  text-align: center; }
 
 .testoo {
   display: flex;
@@ -884,12 +902,6 @@ li a.active, li a:hover {
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start; }
-
-.sobre {
-  text-align: center;
-  margin: 3rem;
-  padding: 2rem;
-  font-size: 30px; }
 
 .nosotros {
   margin-left: 40px;
@@ -939,10 +951,13 @@ li a.active, li a:hover {
   height: 45px;
   line-height: 45px;
   color: white;
-  margin: 0px 30px;
+  margin: 20px 30px;
   margin-right: 10px;
   text-align: center;
   transition: all 300ms ease; }
+
+.red-social {
+  margin-top: -37px; }
 
 .pie-pagina .grupo-1 .red-social .face:hover {
   color: royalblue; }
@@ -987,7 +1002,11 @@ li a.active, li a:hover {
     background-color: #212125;
     color: white;
     text-align: center;
-    padding: 15px 0px; } }
+    padding: 15px 0px; }
+  .lasredesestas {
+    margin-top: 15px; }
+  .perochango {
+    margin-top: 7px; } }
 
 @media (max-width: 975px) {
   .pie-pagina .grupo-1 {
