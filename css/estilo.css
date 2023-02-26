@@ -1035,7 +1035,7 @@ li a.active, li a:hover {
     color: white; }
   .pie-pagina .grupo-1 .red-social .twitter:hover {
     background: none;
-    color: white; }
+    color: color-secundario; }
   .pie-pagina .grupo-2 {
     background-color: #212125;
     color: white;

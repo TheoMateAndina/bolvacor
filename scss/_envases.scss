@@ -1,0 +1,93 @@
+.envase-bolsa{
+	width: 100%;
+    margin-top: 40px;
+    margin-bottom:70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.envases{
+	text-align:center;
+	font-size:30px;
+}
+.container-bolsa{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-content:flex-start;
+	align-itmes:flex-start;
+}
+.bolsasgrofadas{
+	font-size:30px;
+	text-align:left;
+    margin:40px;
+}
+.bolsasa{
+	margin:40px;
+	text-align:left,
+}
+.grofada{
+	width:800px;
+	height:600px;
+	margin:40px;
+}
+.bolsaslisas{
+	font-size:30px;
+	text-align:left;
+	margin:40px;
+}
+.cajadebolsa{
+	width:100%;
+	text-align:left;
+}
+.container-bolsa-lisa{
+	margin:40px;
+	text-align:left;
+}
+.lisas{
+	width:800px;
+	height:600px;
+	margin:40px;
+	margin-bottom:150px;
+}
+@media (max-width: 835px){
+	.lisas{
+	width:500px;
+	height:500px;
+	}
+	.grofada{
+	width:500px;
+	height:500px;
+	}
+}
+@media (max-width: 585px){
+	.lisas{
+    width:230px;
+    height:230px;
+	}
+	.grofada{
+	width:230px;
+	height:230px;
+	}
+}
+@media (max-width: 300px){
+	.envase-bolsa h1{
+	font-size:20px;
+	}
+	.container-bolsa .bolsasgrofadas{
+	font-size:20px;
+	}
+	.container-bolsa p{
+	font-size:20px;
+	}
+	.lisas{
+	width:150px;
+	height:150px;
+	}
+	.grofada{
+	width:150px;
+	height:150px;
+	}
+}

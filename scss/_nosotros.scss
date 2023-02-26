@@ -1,0 +1,41 @@
+.nosonoso{
+	width: 100%;
+    margin-top: 40px;
+    margin-bottom:70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sobreee{
+	font-size:30px;
+	text-align:center;
+}	
+.testoo{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-content:flex-start;
+	align-items:flex-start;
+}
+.nosotros{
+	margin-left:40px;
+	margin-bottom:50px;
+}
+.grupo{
+	font-size:30px;
+	margin-left:40px;
+	margin-bottom:100px;
+}
+@media (max-width: 300px){
+	.nosonoso .sobre{
+	font-size:20px;
+	}
+	.testoo .nosotros{
+	font-size:20px;
+	}
+	.testoo .grupo{
+	font-size:20px;
+	}
+}

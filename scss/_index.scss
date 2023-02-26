@@ -1,0 +1,657 @@
+.titulo-parrafo{
+	width:100%;
+	height:250px;
+	margin-top:40px;
+	margin-bottom:120px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.titulo-parrafo .titulo1{
+	font-size:30px;
+	text-align:center;
+}
+.titulo-parrafo .parrafo1{
+	text-align:center;
+	margin:30px 40px;
+}
+.padrediv{
+	width:70%;
+	height:700px;
+	margin-left:340px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-end;
+	position:absolute;
+}
+.alimento{
+	width:250px;
+	height:250px;
+	margin-left:110px;
+	border-style:solid;
+	color:black;
+}
+.pescados{
+	@include alimentos-cajas;
+}
+.pollos{
+	@include alimentos-cajas;
+}
+.carnes{
+	@include alimentos-cajas;
+}
+.verduras{
+	@include alimentos-cajas;
+}
+.textopescado{
+	@include texto-alimentos;
+}
+.textopollo{
+	@include texto-alimentos;
+}
+.textocarne{
+	@include texto-alimentos;
+}
+.textoverdura{
+	@include texto-alimentos;
+}
+.listas-container{
+	height:700px;
+	widht:45%;
+	margin-left:40px;
+	margin-bottom:80px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+}
+.listas{
+	position:absolute;
+}
+.sabiasque{
+	margin-left:40px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+}
+.contenedor-imagenes{
+	width:100%;
+	height:500px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+}
+.caja-i{
+	width:250px;
+	height:250px;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	border-style:solid;
+	color:black;
+	margin:50px;
+}
+.ropa{
+	width:150px;
+	height:150px;
+	margin-bottom:20px;
+}
+.dinero{
+	width:150px;
+	height:150px;
+	margin-bottom:20px;
+}
+.liquido{
+	width:150px;
+	height:150px;
+	margin-bottom:20px;
+}
+.textoropa{
+	font-size:9px;
+	text-align:center;
+}
+.textodinero{
+	font-size:9px;
+	text-align:center;
+}
+.textoliquido{
+	font-size:9px;
+	text-align:center;
+}
+@media (max-width:1145px){
+	.padrediv{
+	width:70%;
+	height:700px;
+	flex-flow:row wrap;
+	justify-content:flex-end;
+	position:absolute;
+	margin-left:310px;
+	}
+	.alimento{
+	width:170px;
+	height:170px;
+	margin-left:110px;
+	border-style:solid;
+	color:black;
+	}
+	.pescados{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.pollos{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.carnes{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.verduras{
+	width:70px;
+	height:70px;
+	margin:25px 0px 25px 40px;
+	margin-bottom:10px;
+	}
+	.contenedor-imagenes{
+	width:100%;
+	height:300px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content: center;
+	}
+	.caja-i{
+	width:170px;
+	height:170px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	border-style:solid;
+	color:black;
+	margin:50px;
+	margin-bottom:0px;
+	}
+	.ropa{
+	width:70px;
+	height:70px;
+	margin-bottom:20px;
+	}
+	.dinero{
+	width:70px;
+	height:70px;
+	margin-bottom:20px;
+	}
+	.liquido{
+	width:70px;
+	height:70px;
+	margin-bottom:20px;
+	}
+	.textoropa{
+	font-size:9px;
+	text-align:center;
+	}
+	.textodinero{
+	font-size:9px;
+	text-align:center;
+	}
+	.textoliquido{
+	font-size:9px;
+	text-align:center;
+	}
+}
+@media (max-width: 1080px){
+	.titulo-parrafo{
+	width:100%;
+	height:250px;
+	margin-top:225px;
+	margin-bottom:10px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:center,
+	}
+	.titulo-parrafo .titulo1{
+	font-size:20px;
+	text-align:center;
+	}
+	.titulo-parrafo .parrafo1{
+	text-align:center;
+	margin:30px 40px;
+	font-size:20px;
+	margin-bottom:0px;
+	}
+	.listas-container{
+	width:500px;
+	margin-left:350px;
+	}
+	.listas{
+	font-size:16px;
+	margin:40px 0px;
+	position:relative;
+	background:none;
+	margin-top:550px;
+	}
+	.padrediv{
+	width:70%;
+	height:700px;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content: flex-end;
+	position:absolute;
+	margin-left:100px;
+	margin-top:260px;
+	}
+	.alimento{
+	width:130px;
+	height:150px;
+	margin-left:10px;
+	border-style:solid;
+	color:black;
+	}
+	.pescados{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.pollos{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.carnes{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.verduras{
+	width:90px;
+	height:90px;
+	margin: 20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.textopescado{
+	font-size:9px;
+	text-align:center;
+	}
+	.textopollo{
+	font-size:9px;
+	text-align:center;
+	}
+	.textocarne{
+	font-size:9px;
+	text-align:center;
+	}
+	.textoverdura{
+	font-size:9px;
+	text-align:center;
+	}
+	.contendor-imagenes{
+	width:100%;
+	height:350px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	}
+	.caja-1{
+	width:170px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+	align-content:center;
+	border-style:solid;
+	color:black;
+	margin:50px;
+	margin-bottom:0px;
+	}
+	.falalala{
+	margin-bottom:100px;
+	}
+	.sabiasque{
+	margin-top:630px;
+	}
+	.sabiasque h2{
+	font-size:20px,
+	}
+	.sabiasque .fafada{
+	font-size:20px;
+	}
+}
+@media (max-width: 975px){
+	.listas-container{
+	width:200px;
+	margin-left:500px;
+	}
+	.sabiasque h2{
+	margin-top: 550px;
+	}
+	.listas-container .listas{
+	margin-top:400px;
+	}
+}
+@media (max-width: 826px){
+	.contenedor-imagenes{
+	margin-bottom:200px;
+	}
+}
+@media (max-width: 756px){
+	.falalala{
+	margin-bottom:300px;
+	}
+	.container-i{
+	margin-bottom:200px;
+	}
+	.listas-container{
+	width:200px;
+	margin-left:450px;
+	}
+	.listas{
+	font-size:16px;
+	margin:40px 0px;
+	position:relative;
+	background:none;
+	margin-top:400px;
+	}
+	.padrediv{
+	width:70%;
+	height:700px;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:flex-end;
+	position:absolute;
+	margin-left:50px;
+	margin-top:260px;
+	}
+	.alimento{
+	width:90px;
+	height:120px;
+	margin-left:10px;
+	border-style:solid;
+	color:black;
+	}
+	.pescados{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.pollos{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.carnes{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.verduras{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.textopescado{
+	font-size:8px;
+	text-align:center;
+	}
+	.textopollo{
+	font-size:8px;
+	text-align:center;
+	}
+	.textocarne{
+	font-size:8px;
+	text-align:center;
+	}
+	.textoverdura{
+	font-size:8px;
+	text-align:center;
+	}
+}
+@media (max-width: 738px){
+	.listas-container{
+	width:200px;
+	margin-left:320px;
+	margin-top:100px;
+	}
+	.listas{
+	font-size:14px;
+	margin:40px 0px;
+	position:relative;
+	background:none;
+	margin-top:0px;
+	margin-bottom:50px;
+	}
+	.movete{
+	margin-top:-280px;
+	position:absolute;
+	}
+	.padrediv{
+	width:70%;
+	height:320px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	position:absolute;
+	margin-left:60px;
+	margin-top:50px;
+	}
+	.alimento{
+	width:90px;
+	height:120px;
+	margin-right:100px;
+	margin-left:-20px;
+	border-style:solid;
+	color:black;
+	margin-bottom:30px;
+	}
+	.pescados{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.pollos{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.carnes{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.verduras{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	margin-bottom:0px;
+	}
+	.textopescado{
+	font-size:8px;
+	text-align:center;
+	}
+	.textopollo{
+	font-size:8px;
+	text-align:center;
+	}
+	.textocarne{
+	font-size:8px;
+	text-align:center;
+	}
+	.textoverdura{
+	font-size:8px;
+	text-align:center;
+	}
+	.sabiasque{
+	margin-top:1000px;
+	}
+	.sabiasque h2{
+	font-size: 14px;
+	}
+	.sabiasque .fafada{
+	font-size:14px;
+	}
+	.container-i{
+	margin-bottom:100px;
+	}
+	.titulo-parrafo{
+	margin-bottom:150px;
+	text-align:left;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start,
+	}
+	.titulo-parrafo .titulo1{
+	font-size:20px;
+	text-align:left;
+	margin-left:20px;
+	}
+	.titulo-parrafo .parrafo1{
+	font-size:20px;
+	text-align:left;
+	margin-left:20px;
+	}
+}
+@media (max-width: 557px){
+	.listas-container{
+	width:150px;
+	}
+	.padrediv{
+	margin-top:50px;
+	}
+	.container-i{
+	margin-bottom:450px;
+	}
+	.sabiasque{
+	margin-top:1250px;
+	}
+}
+@media (max-width: 509px){
+	.listas-container{
+	width:100px;
+	margin-left:140px;
+	margin-top:0px;
+	position:absolute;
+	}
+	.listas{
+	font-size:12px;
+	margin:40px 0px;
+	position:none;
+	background:none;
+	margin-top:900px;
+	margin-bottom:100px;
+	}
+	.sabiasque{
+	margin-top:2000px;
+	}
+	.container-i{
+	margin-bottom:400px;
+	}
+	.padrediv{
+	margin-top:200px;
+	margin-right:1000px;
+	}
+	.movete{
+	margin-top:300px;
+	}
+}
+@media (max-width: 300px){
+	.listas-container{
+	width:90px;
+	margin-left:140px;
+	margin-top:450px;
+	position:absolute;
+	}
+	.listas{
+	font-size:12px;
+	margin:40px 0px;
+	position:none;
+	background:none;
+	margin-top:300px;
+	margin-bottom:0px;
+	}
+	.movete{
+	margin-top:300px;
+	margin-bottom:500px;
+	}
+	.padrediv{
+	width:70%;
+	height:320px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	position:absolute;
+	margin-left:60px;
+	margin-top:500px;
+	}
+	.alimento{
+	width:90px;
+	height:150px;
+	margin-right:40px;
+	margin-left:-20px;
+	border-style:solid;
+	color:black;
+	margin-top:20px;
+	}
+	.pescados{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.pollos{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.carnes{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.verduras{
+	width:50px;
+	height:50px;
+	margin:20px 20px 20px 20px;
+	}
+	.textopescado{
+    font-size:8px;
+    text-align:center;
+	}
+	.textopollo{
+    font-size:8px;
+    text-align:center;
+	}
+	.textocarne{
+    font-size:8px;
+    text-align:center;
+	}
+	.textoverdura{
+    font-size:8px;
+    text-align:center;
+	}
+	.sabiasque{
+	margin-top:2650px;
+	}
+	.container-i{
+	margin-bottom:400px;
+	}
+ }
